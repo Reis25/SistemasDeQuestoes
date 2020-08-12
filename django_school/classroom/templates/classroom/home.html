@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Questionário Laccan! <span class="icon-emo-happy"></span></h2>
+  <p class="lead">
+    Se você já possui uma conta, acesse seu <a href="{% url 'login' %}">log in</a>. Se você é novo em nossa plataforma, Crie uma conta! se for aluno:  <a href="{% url 'student_signup' %}">Conta de estudante</a> ou se for professor <a href="{% url 'teacher_signup' %}">Conta de professor</a>.
+  </p>
+  <hr>
+  <h3>Por que devo usar o questinário Laccan?</h3>
+  <p>
+    Nosso questionário visa uma melhor interação entre os educadores e os alunos. Os questionários são feitos de forma interativa para que possamos
+    corrigir com mais facilidade suas atividades! esperamos que goste da experiência! 
+  </p>
+  <p>Não esquece de nos acompanhar nas redes sociais :) <a href="https://www.instagram.com/laccan_ufal/?hl=pt-br">instagram.com/laccan_ufal</a>.</p>
+  <p class="mb-0">Equipe Laccan<br><a href="https://www.laccan.ufal.br/">LaCCAN</a></p>
+{% endblock %}
